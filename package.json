@@ -33,6 +33,6 @@
     "vite": "^6.3.1"
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx}": "eslint ."
+    "*.{js,ts,jsx,tsx}": "npm run lint"
   }
 }
