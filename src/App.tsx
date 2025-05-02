@@ -4,6 +4,8 @@ import "./app.css";
 import reactLogo from "./assets/react.svg";
 
 function App() {
+  console.log("res");
+
   const [count, setCount] = useState(0);
   return (
     <>

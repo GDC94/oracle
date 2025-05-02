@@ -14,6 +14,7 @@ export default antfu({
     "ts/no-redeclare": "off",
     "ts/consistent-type-definitions": ["error", "type"],
     "antfu/no-top-level-await": ["off"],
+    "no-console": "warn",
     "node/prefer-global/process": ["off"],
     "node/no-process-env": ["error"],
     "unused-imports/no-unused-imports": ["warn"],
