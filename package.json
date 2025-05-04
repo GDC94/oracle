@@ -38,6 +38,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,jsx,tsx}": "npm run lint"
+    "*.{js,ts,jsx,tsx}": "npm run lint --allow-empty"
   }
 }
