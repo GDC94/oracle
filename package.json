@@ -9,8 +9,7 @@
     "lint": "eslint . --fix",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
     "preview": "vite preview",
-    "prepare": "husky",
-    "site": "npm run dev"
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^19.0.0",
