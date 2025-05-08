@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
     "preview": "vite preview",
     "prepare": "husky"
@@ -32,8 +32,12 @@
     "typescript-eslint": "^8.26.1",
     "vite": "^6.3.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*": "npm run lint"
+    "*.{js,ts,jsx,tsx}": "npm run lint"
   }
-
 }

@@ -1,10 +1,11 @@
 import { useState } from "react";
 
-import "./app.css";
 import reactLogo from "./assets/react.svg";
+import "./app.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
+
   return (
     <>
       <div>
